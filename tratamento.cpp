@@ -34,7 +34,7 @@ float div(float x, float y)
  b=y;
  if (b==0)
     {
-    cout<<"Divisão : Math Error"<< endl;
+    cout<<"Divisï¿½o : Math Error"<< endl;
     return 0;
     }
  else
