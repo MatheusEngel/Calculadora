@@ -6,7 +6,7 @@ Departamento de Eletronica e de Computacao
 EEL670 - Linguagens de Programacao - Turma 2012/1
 Prof. Leonardo de Oliveira Nunes
 
-Autores: Héron Silva, Matheus Engel, Rafael Estevam, Tiago Monteiro e Vitor Tavares
+Autores: Hï¿½ron Silva, Matheus Engel, Rafael Estevam, Tiago Monteiro e Vitor Tavares
 DREs: 
 Data: 28/05/12
 Descricao: Implementacao das funcoes auxiliares do modulo de interface
