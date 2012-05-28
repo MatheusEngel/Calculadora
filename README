@@ -1,0 +1,24 @@
+  O presente trabalho visa projetar, implementar e testar uma calculadora em linha de comando em C++.
+  
+  A calculadora foi projetada para suportar a seguinte gramática:
+
+program:
+     END
+     expr_list END // END é ENTER
+expr_list:
+     expression PRINT // Print é “;”
+     expression PRINT expr_list
+expression:
+     expression + term
+     expression - term
+     term
+term:
+     term / primary
+     term * primary
+     primary
+primary:
+     NUMBER
+     NAME
+NAME:
+     NAME = expression - primary
+     (expression)

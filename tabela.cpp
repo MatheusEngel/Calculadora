@@ -8,7 +8,6 @@ desta Variavel
 #include <iostream>
 
 
-
 using namespace std;
 
 namespace tabela{
@@ -32,7 +31,7 @@ namespace tabela{
 		int found = 0;
 //		int valorVar = 0;
 	
-		if (pStart == NULL){			 	// caso tabela vazia, nao há o que buscar
+		if (pStart == NULL){			 	// caso tabela vazia, nao hï¿½ o que buscar
 			printf("Variavel %c nao encontrada.\n", nomeVar);
 		}	
 		
@@ -90,10 +89,10 @@ namespace tabela{
 		pNode = pStart;
 		do{
 			free(pNode->pVariavel);	    	//libera o conteudo do primeiro node
-			pStart = pNode;			     	// grava o endereço do primeiro node
+			pStart = pNode;			     	// grava o endereï¿½o do primeiro node
 			pNode = pNode->pNext;	      	// segue para o prox node
 			free(pStart);			       	// libera o primeiro node
-		} while ((pNode = pNode->pNext) != 0); // repete até chegar ao ultimo node (aonde o pNext será vazio)	
+		} while ((pNode = pNode->pNext) != 0); // repete atï¿½ chegar ao ultimo node (aonde o pNext serï¿½ vazio)	
 	}
 
 }
