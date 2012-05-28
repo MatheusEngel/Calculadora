@@ -8,7 +8,6 @@ desta Variavel
 #include <iostream>
 
 
-
 using namespace std;
 
 namespace tabela{
