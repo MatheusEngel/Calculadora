@@ -24,7 +24,6 @@ Node, que contem um ponteiro para Variavel e outro ponteiro para o proximo Node.
 #include <iostream>
 
 
-
 using namespace std;
 
 namespace tabela{
