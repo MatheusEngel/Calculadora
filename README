@@ -21,4 +21,4 @@ primary:
      NAME
 NAME:
      NAME = expression - primary
-     ( expression )
+     (expression)
