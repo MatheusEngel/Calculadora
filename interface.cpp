@@ -6,7 +6,7 @@ Departamento de Eletronica e de Computacao
 EEL670 - Linguagens de Programacao - Turma 2012/1
 Prof. Leonardo de Oliveira Nunes
 
-Autores: Heron Silva, Matheus Engel, Rafael Estevam, Tiago Monteiro e Vitor Tavares
+Autores: Héron Silva, Matheus Engel, Rafael Estevam, Tiago Monteiro e Vitor Tavares
 DREs: 
 Data: 28/05/12
 Descricao: Implementacao das funcoes auxiliares do modulo de interface
@@ -26,26 +26,6 @@ string char2string (char caracter)
   st << caracter;
   
   return (st.str());
-}
-
-void instruirUsuario ()
-{
-  cout << "CALCULADORA\n";
-  cout << "===========\n\n";
-  cout << "INSTRUCOES:\n\n";
-  cout << "1) Sua expressao pode conter letras, numeros, parenteses e os quatro operadores aritmeticos;\n";
-  cout << "2) Utilize o caracter de ';' para terminar ou separar as expressoes;\n";
-  cout << "3) Nao utilize espacos.\n\n";
-  cout << "Insira uma expressao:\n\n";
-}
-
-string receberExpressao ()
-{
-  string stringAuxiliar;
-  
-  cin >> stringAuxiliar;
-  
-  return stringAuxiliar;
 }
 
 unsigned contarSeparador (string stringLida)
@@ -77,9 +57,4 @@ void separarExpressao (string stringLida, string *expressoes)
           break;
         }
     }
-}
-
-void exibirResultado (double resultado)
-{
-  cout << resultado << endl;
 }
